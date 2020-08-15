@@ -1,0 +1,20 @@
+{
+  "name": "thats-what-she-said",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist/es --config-file ./config/babel.config.json",
+    "prepublish": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0"
+  },
+  "dependencies": {
+    "sushiweb": "^0.4.40"
+  }
+}
